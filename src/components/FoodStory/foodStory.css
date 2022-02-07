@@ -1,7 +1,7 @@
-.cred-story {
+.food-story {
   background-color: var(--bg-green);
   min-height: 100vh;
-  background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/trust-bg.jpg);
+  background-image: url(https://web-images.foodcdn.in/_next/assets/images/home-page/trust-bg.jpg);
   background-size: cover;
   background-position: right bottom;
   position: relative;
@@ -11,27 +11,27 @@
   align-items: flex-end;
 }
 
-.cred-story-heading-wrapper {
+.food-story-heading-wrapper {
   width: 50%;
   flex-direction: column;
   -webkit-box-pack: end;
   justify-content: flex-end;
 }
 
-.cred-story-heading {
+.food-story-heading {
   font-size: 60px;
   line-height: 60px;
   font-weight: 700;
   max-width: 80%;
 }
 
-.cred-story-detail {
+.food-story-detail {
   width: 50%;
   font-weight: 500;
   margin-left: 30px;
 }
 
-.cred-story-para {
+.food-story-para {
   font-size: 18px;
   line-height: 28px;
   margin-top: 20px;
@@ -39,23 +39,23 @@
 }
 
 @media all and (max-width: 1279px) {
-  .cred-story-heading {
+  .food-story-heading {
     max-width: 100%;
   }
 }
 
 @media all and (max-width: 767px) {
-  .cred-story {
-    background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/trust-bg-mobile.jpg);
+  .food-story {
+    background-image: url(https://web-images.foodcdn.in/_next/assets/images/home-page/trust-bg-mobile.jpg);
   }
 
-  .cred-story-heading {
+  .food-story-heading {
     font-size: 55px;
     line-height: 55px;
     padding-bottom: 80px;
   }
 
-  .cred-story-para {
+  .food-story-para {
     font-size: 15px;
   }
 
@@ -64,11 +64,11 @@
     padding: 70px 0px;
   }
 
-  .cred-story-heading-wrapper {
+  .food-story-heading-wrapper {
     width: 100%;
   }
 
-  .cred-story-detail {
+  .food-story-detail {
     width: 100%;
   }
 }
