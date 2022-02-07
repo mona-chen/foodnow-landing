@@ -58,6 +58,7 @@ const AppRating = () => {
         </div>
         <div className="non-mobile">
           <Button
+          
             prefix={getAndroidPrefix()}
             buttonText="Download the app"
             customClass="app-rating-button"
