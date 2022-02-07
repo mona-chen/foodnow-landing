@@ -1,11 +1,10 @@
+import React from 'react';
 import Button from "../common/Button";
 import "./feelSpecial.css";
-import { useState } from 'react';
 
 
 
 const FeelSpecial = () => {
-  const [url, setUrl] = useState('')
   const foodHandle = e => {
     e.preventDefault()
     window.location.replace(`https://web.foodnow.ng`)

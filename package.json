@@ -1,7 +1,7 @@
 {
   "name": "foodnow-landing",
   "version": "0.1.0",
-  "homepage": "https://suspicious-fermi-535bd1.netlify.app/",
+  "homepage": "https://foodnow.ng/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",

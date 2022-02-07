@@ -1,10 +1,8 @@
 import Button from "../common/Button";
 import "./credExperience.css";
-import { useState } from 'react';
+import React from 'react';
 
 const CredExperience = () => {
-
-  const [url, setUrl] = useState('')
   const foodHandle = e => {
     e.preventDefault()
     window.location.replace(`https://web.foodnow.ng`)

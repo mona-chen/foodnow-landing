@@ -3,6 +3,7 @@ import Button from "../common/Button";
 import "./appRating.css";
 
 const getIosPrefix = () => {
+  
   return (
     <img
       src="https://web-images.credcdn.in/_next/assets/images/home-page/apple-store-logo.png"
@@ -12,6 +13,7 @@ const getIosPrefix = () => {
 };
 
 const getAndroidPrefix = () => {
+  
   return (
     <img
       src="https://web-images.credcdn.in/_next/assets/images/home-page/play-store-logo.png"
@@ -20,6 +22,12 @@ const getAndroidPrefix = () => {
   );
 };
 const AppRating = () => {
+
+  const appHandle = e => {
+    e.preventDefault()
+    window.location.replace(`https://play.google.com/store/apps/details?id=ng.foodnow`)
+  }
+  
   return (
     <div className="max-width app-rating flex">
       <div className="flex app-rating-block flex-col">
@@ -60,13 +68,19 @@ const AppRating = () => {
           <Button
           
             prefix={getAndroidPrefix()}
+            onClick={appHandle}
             buttonText="Download the app"
             customClass="app-rating-button"
           />
         </div>
       </div>
+
+      
+      
       <div className="only-mobile">
-        <Button buttonText="Download the app" />
+        <Button 
+        onClick={appHandle}
+        buttonText="Download the app" />
       </div>
     </div>
   );

@@ -1,10 +1,9 @@
 import Button from "../common/Button";
-import React, { useState } from 'react';
+import React from 'react';
 import "./credSecurity.css";
 
 const CredSecurity = () => {
 
-  const [url, setUrl] = useState('')
   const submitHandle = e => {
     e.preventDefault()
     window.location.replace(`https:www.//foodnow.ng/become-a-vendor`)

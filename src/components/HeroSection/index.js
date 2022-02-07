@@ -1,12 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Button from '../common/Button/index';
 import "./heroSection.css";
 
 const HeroSection = () => {
-    const [url, setUrl] = useState('')
-    const changeHandle = e => {
-      setUrl(e.target.value)
-    }
+
     const appHandle = e => {
       e.preventDefault()
       window.location.replace(`https://play.google.com/store/apps/details?id=ng.foodnow`)
