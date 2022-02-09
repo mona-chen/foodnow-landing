@@ -36,7 +36,7 @@ const HeroSection = () => {
         </div>
         <Button
          onClick={appHandle}
-         buttonText="Install FoodNow" />
+         buttonText="Download FoodNow" />
         
        </div>
        </div>
