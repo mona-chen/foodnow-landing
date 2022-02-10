@@ -18,10 +18,10 @@ const HeroSection = () => {
 
   return <div className="hero-section-wrapper">
       <div className="flex absolute-center hero-claim-label">
-            <div className="hero-text">get 5% discount today. use coupon code "5%OFF". </div>
+            <div className="hero-text">valentine discount - get N500 OFF your first order </div>
             <div
             onClick={foodWeb}  
-            className="claim-anchor"> claim now <img 
+            className="claim-anchor"> start ordering<img 
             src="https://web-images.credcdn.in/_next/assets/images/home-page/arrow.png"
             alt="Claim"
             className="claim-arrow">
