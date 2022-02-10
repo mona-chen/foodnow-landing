@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from '../common/Button/index';
 import "./heroSection.css";
+import ButtonO from '../common/ButtonO/index';
 
 const HeroSection = () => {
 
@@ -34,11 +35,20 @@ const HeroSection = () => {
         <div className="hero-subheading">
             join 3m+ people enjoying quality meals with fast delivery
         </div>
-        <Button
+        <div className="hero-button flex">
+          <div className="button-head">
+        <Button 
          onClick={appHandle}
-         buttonText="Download FoodNow" />
-        
+         buttonText="Download" />
+        </div>
+        <div className="button-head">
+        <ButtonO
+         onClick={foodWeb}
+         buttonOText="Order Now" />
+         </div>
+         </div>
        </div>
+       
        </div>
 };
  

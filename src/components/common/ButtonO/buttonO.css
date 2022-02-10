@@ -1,7 +1,7 @@
-.button-wrapper {
+.buttonO-wrapper {
   cursor: pointer;
-  background-color: var(--white-bg);
-  color: var(--bg-black);
+  background-color: var(--bg-orange);
+  color: var(--white-bg);
   font-size: 24px;
   font-weight: 700;
   padding: 20px 65px;
@@ -10,7 +10,7 @@
 }
 
 @media all and (max-width: 767px) {
-  .button-wrapper {
+  .buttonO-wrapper {
     font-size: 14px;
     padding: 16px 24px;
   }
