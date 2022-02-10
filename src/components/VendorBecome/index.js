@@ -1,12 +1,12 @@
 import Button from "../common/Button";
 import React from 'react';
-import "./credSecurity.css";
+import "./vendorBecome.css";
 
-const CredSecurity = () => {
+const VendorBecome = () => {
 
   const submitHandle = e => {
     e.preventDefault()
-    window.location.replace(`https:www.//foodnow.ng/become-a-vendor`)
+    window.location.replace(`https://foodnow.ng/become-a-vendor`)
   }
 
   return (
@@ -15,10 +15,10 @@ const CredSecurity = () => {
         <div className="photo-section-child">
           <div className="photo-section-top dynamic-margin">
             <div className="photo-section-heading">
-              security first. and second.
+             start selling on foodnow.
             </div>
             <div className="photo-section-subheading">
-              start selling on foodnow
+              reach potential customers quickly and easily
             </div>
           </div>
           <div className="photo-section-bottom dynamic-margin">
@@ -39,4 +39,4 @@ const CredSecurity = () => {
   );
 };
 
-export default CredSecurity;
+export default VendorBecome;

@@ -57,6 +57,7 @@
   font-size: 105px;
   font-weight: 700;
   line-height: 105px;
+  opacity: 0.9;
 }
 
 .screen-description {
@@ -76,6 +77,7 @@
   .screen-heading {
     font-size: 70px;
     line-height: 70px;
+    opacity: 0.9;
   }
   .mobile-mockup {
     transform: translateX(10%);
@@ -95,6 +97,7 @@
   .screen-heading {
     font-size: 50px;
     line-height: 50px;
+    opacity: 0.9;
   }
 
   .scroll-full-screen-wrapper {

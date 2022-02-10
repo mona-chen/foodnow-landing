@@ -14,7 +14,7 @@ const CredExperience = () => {
         <div className="photo-section-child">
           <div className="photo-section-top">
             <div className="photo-section-heading cred-experience-heading">
-              Enjoy your meal while it's hot.
+              enjoy your meal while it's hot.
             </div>
             <div className="photo-section-subheading">
               your food delivered just in time.
@@ -22,7 +22,7 @@ const CredExperience = () => {
           </div>
           <div className="photo-section-bottom">
             <div className="photo-section-description cred-experience-description">
-              you don't need to skip launch, FOODNOW allows you to schedule your order and get it just in time, your groceries also get the same treat, you get real time tracking of your order, no more fear of cancellation, FOODNOW got you covered.
+            You don't have to skip lunch, FoodNow allows you schedule meals and groceries and get it delivered just in time. You also get real time tracking of your orders, with little to no fear of cancellation. FoodNow got you covered 
             </div>
             <div className="photo-section-button">
               <Button 

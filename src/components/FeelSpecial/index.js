@@ -25,7 +25,7 @@ const FeelSpecial = () => {
           </div>
           <div className="photo-section-bottom dynamic-margin">
             <div className="photo-section-description">
-              you don't just buy food on FOODNOW, you connect with community of people who are inspired always to share their food with the world, and you just became one of the people showing love to humanity. It's can only be possible with FOODNOW.
+            you don't just buy food on FoodNow you connect with a community of lovers and philanthropists who express their love via gifting food. Because in FoodNow, Love is Food.
             </div>
             <div className="photo-section-button">
               <Button 

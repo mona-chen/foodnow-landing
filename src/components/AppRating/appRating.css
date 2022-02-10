@@ -8,6 +8,7 @@
   line-height: 120px;
   padding-right: 16px;
   font-weight: 700;
+  opacity: 0.9;
 }
 
 .app-rating-stars {
@@ -20,6 +21,7 @@
   line-height: 55px;
   padding-left: 16px;
   font-weight: 700;
+  opacity: 0.9;
 }
 
 .app-rating-block {
