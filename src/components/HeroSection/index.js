@@ -18,7 +18,7 @@ const HeroSection = () => {
 
   return <div className="hero-section-wrapper">
       <div className="flex absolute-center hero-claim-label">
-            <div className="hero-text">valentine discount - get N500 OFF your first order </div>
+            <div className="hero-text">#valentine discount - get N500 OFF your first order. </div>
             <div
             onClick={foodWeb}  
             className="claim-anchor"> start ordering<img 
