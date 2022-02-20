@@ -7,7 +7,7 @@ const HeroSection = () => {
 
     const appHandle = e => {
       e.preventDefault()
-      window.location.replace(`https://play.google.com/store/apps/details?id=ng.foodnow`)
+      window.location.replace(`https://urlgeni.us/foodnow`)
     }
 
     const foodWeb = e => {
