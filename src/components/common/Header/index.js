@@ -1,18 +1,33 @@
 import React, { useState } from 'react';
 import './header.css';
 
+const loginHandle = e => {
+    e.preventDefault()
+    window.location.replace(`https://foodnow.com.ng/auth/login`)
+  }
+
+  const registerHandle = e => {
+    e.preventDefault()
+    window.location.replace(`https://foodnow.com.ng/auth/register`)
+  }
+
 const Header = () => {
     const [showMobMenu, setShowMobMenu] = useState(false);
 
     const toggleMobileMenu = () => {
         setShowMobMenu(!showMobMenu);
     }; 
+    
 
   return <div className="mobile-menu-wrapper">
       <div className={`mobile-menu only-mobile ${showMobMenu ? "overlay" : ""}`}>
         <div className="mobile-navbar">
-            <div className="mobile-nav-item"> login </div>
-            <div className="mobile-nav-item"> register </div>
+            <div 
+            onClick={loginHandle}
+            className="mobile-nav-item"> login </div>
+            <div
+            onClick={registerHandle}
+            className="mobile-nav-item"> register </div>
         </div>
       </div>
       <div className="flex max-width header">
@@ -38,8 +53,12 @@ const Header = () => {
 
           </div>
           <div className="non-mobile flex">
-              <div className="header-nav-item"> login </div>
-              <div className="header-nav-item"> register </div>
+              <div 
+              onClick={loginHandle}
+              className="header-nav-item"> login </div>
+              <div 
+              onClick={registerHandle}
+              className="header-nav-item"> register </div>
           </div>
       </div>
   </div>;
