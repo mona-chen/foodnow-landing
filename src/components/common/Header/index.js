@@ -11,6 +11,11 @@ const loginHandle = e => {
     window.location.replace(`https://foodnow.com.ng/auth/register`)
   }
 
+  const vendorHandle = e => {
+    e.preventDefault()
+    window.location.replace(`https://app.foodnow.ng/vendor-panel/auth/login`)
+  }
+
 const Header = () => {
     const [showMobMenu, setShowMobMenu] = useState(false);
 
@@ -28,7 +33,11 @@ const Header = () => {
             <div
             onClick={registerHandle}
             className="mobile-nav-item"> register </div>
+            <div
+            onClick={vendorHandle}
+            className="mobile-nav-item"> vendor login </div>
         </div>
+        
       </div>
       <div className="flex max-width header">
           <img 
@@ -56,9 +65,12 @@ const Header = () => {
               <div 
               onClick={loginHandle}
               className="header-nav-item"> login </div>
-              <div 
+          <div 
               onClick={registerHandle}
               className="header-nav-item"> register </div>
+              <div 
+              onClick={vendorHandle}
+              className="header-nav-item"> vendor login </div>
           </div>
       </div>
   </div>;
