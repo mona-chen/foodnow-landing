@@ -12,7 +12,7 @@ const HeroSection = () => {
 
     const foodWeb = e => {
         e.preventDefault()
-        window.location.replace(`https://foodnow.com.ng`)
+        window.location.replace(`https://web.foodnow.ng`)
       }
   
 

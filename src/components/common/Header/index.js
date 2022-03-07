@@ -3,12 +3,12 @@ import './header.css';
 
 const loginHandle = e => {
     e.preventDefault()
-    window.location.replace(`https://foodnow.com.ng/auth/login`)
+    window.location.replace(`https://web.foodnow.ng/auth/login`)
   }
 
   const registerHandle = e => {
     e.preventDefault()
-    window.location.replace(`https://foodnow.com.ng/auth/register`)
+    window.location.replace(`https://web.foodnow.ng/auth/register`)
   }
 
   const vendorHandle = e => {
