@@ -3,7 +3,7 @@ import AppRating from "../components/AppRating";
 import BrandsLove from "../components/BrandsLove";
 import Footer from "../components/common/footer";
 import Header from "../components/common/Header";
-import CredExperience from "../components/CredExperience";
+import FoodnowExperience from "../components/FoodnowExperience";
 import FeelSpecial from "../components/FeelSpecial";
 import HeroSection from "../components/HeroSection";
 import MobileScroll from "../components/MobileScroll";
@@ -19,7 +19,7 @@ const HomePage = () => {
       <ProductShowcase />
       <FeelSpecial />
       <BrandsLove />
-      <CredExperience />
+      <FoodnowExperience />
       
       <MobileScroll />
       <div className="non-mobile">

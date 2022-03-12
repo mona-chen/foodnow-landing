@@ -12,7 +12,7 @@ const FeelSpecial = () => {
 
   return (
     
-    <div className="feel-special photo-section">
+    <div className="uber-meets photo-section">
       <div className="max-width">
         <div className="photo-section-child">
           <div className="photo-section-top dynamic-margin">

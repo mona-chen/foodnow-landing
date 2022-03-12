@@ -1,26 +1,26 @@
-.cred-experience {
+.foodnow-experience {
   background-color: var(--bg-blue);
   background-image: url(https://foodnow.ng/wp-content/uploads/2022/02/quick-delivery-plain.png);
 }
 
 @media all and (max-width: 1279px) {
-  .cred-experience {
+  .foodnow-experience {
     background-position: center bottom;
   }
 }
 
 @media all and (max-width: 767px) {
-  .cred-experience {
+  .foodnow-experience {
     background-image: url(https://foodnow.ng/wp-content/uploads/2022/02/mobile-delivery.png);
     min-height: 1150px;
     background-position: right center;
   }
 
-  .cred-experience-description {
+  .foodnow-experience-description {
     margin-top: 100px;
   }
 
-  .cred-experience-heading {
+  .foodnow-experience-heading {
     margin-top: 400px;
   }
 }

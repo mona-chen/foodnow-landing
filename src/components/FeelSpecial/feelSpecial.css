@@ -1,16 +1,16 @@
-.feel-special {
-  background-color: var(--bg-red);
+.uber-meets {
+  background-color: var(--bg-orange);
   background-image: url(https://foodnow.ng/wp-content/uploads/2022/02/foodie-1.png);
 }
 
 @media all and (max-width: 1279px) {
-  .feel-special {
+  .uber-meets {
     background-position: center bottom;
   }
 }
 
 @media all and (max-width: 767px) {
-  .feel-special {
+  .uber-meets {
     background-image: url(https://foodnow.ng/wp-content/uploads/2022/02/foodlove-mobile.png);
     min-height: 1150px;
     background-position: right center;
