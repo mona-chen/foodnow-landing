@@ -2,7 +2,7 @@ import React from 'react';
 import Button from '../common/Button/index';
 import "./heroSection.css";
 import ButtonO from '../common/ButtonO/index';
-
+import arrow from '../../images/arrow.png';
 const HeroSection = () => {
 
     const appHandle = e => {
@@ -18,11 +18,11 @@ const HeroSection = () => {
 
   return <div className="hero-section-wrapper">
       <div className="flex absolute-center hero-claim-label">
-            <div className="hero-text">🎉New: ﻿Refer your friends to foodnow and earn N200 on every referral.</div>
+            <div className="hero-text">🎉New: ﻿Refer your friends to foodnow and earn N200 on every referral. </div>
             <div
             onClick={foodWeb}  
-            className="claim-anchor"> start ordering<img 
-            src="https://web-images.credcdn.in/_next/assets/images/home-page/arrow.png"
+            className="claim-anchor">{""} start reffering<img 
+            src={arrow}
             alt="Claim"
             className="claim-arrow">
             </img>
