@@ -3,6 +3,8 @@ import Button from '../common/Button/index';
 import "./heroSection.css";
 import ButtonO from '../common/ButtonO/index';
 import arrow from '../../images/arrow.png';
+import imageRight from '../../images/image-right.png';
+
 const HeroSection = () => {
 
     const appHandle = e => {
@@ -21,12 +23,20 @@ const HeroSection = () => {
             <div className="hero-text">🎉New: ﻿Refer your friends to foodnow and earn N200 on every referral. </div>
             <div
             onClick={foodWeb}  
-            className="claim-anchor">{""} start reffering<img 
+            className="claim-anchor">{""} start reffering
+            <img 
             src={arrow}
             alt="Claim"
             className="claim-arrow">
             </img>
             </div>
+      </div>
+      <div className="image-right">
+        <img 
+            src={imageRight}
+            alt="Food Image"
+            className="right-image">
+        </img>
       </div>
        <div className="flex absolute-center flex-col hero-section max-width">
         <div className="hero-heading">
