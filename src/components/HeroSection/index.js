@@ -31,12 +31,21 @@ const HeroSection = () => {
             </img>
             </div>
       </div>
-      <div className="image-right">
+      <div className="side-images">
+      <div className="image-container-desktop">
         <img 
             src={imageRight}
             alt="Food Image"
             className="right-image">
         </img>
+      </div>
+      <div className="image-container-mobile">
+        <img 
+            src={imageRight}
+            alt="Food Image"
+            className="left-image">
+        </img>
+      </div>
       </div>
        <div className="flex absolute-center flex-col hero-section max-width">
         <div className="hero-heading">
