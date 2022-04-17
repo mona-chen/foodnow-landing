@@ -20,10 +20,10 @@ const HeroSection = () => {
 
   return <div className="hero-section-wrapper">
       <div className="flex absolute-center hero-claim-label">
-            <div className="hero-text">🎉New: ﻿Refer your friends to foodnow and earn N200 on every referral. </div>
+            <div className="hero-text">🎉﻿Happy Easter, He is risen! </div>
             <div
             onClick={foodWeb}  
-            className="claim-anchor">{""} start reffering
+            className="claim-anchor">{""} order now
             <img 
             src={arrow}
             alt="Claim"
