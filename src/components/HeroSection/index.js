@@ -20,10 +20,10 @@ const HeroSection = () => {
 
   return <div className="hero-section-wrapper">
       <div className="flex absolute-center hero-claim-label">
-            <div className="hero-text">🎉﻿Happy Easter, He is risen! </div>
+            <div className="hero-text">🎉﻿Reffer and Earn! </div>
             <div
             onClick={foodWeb}  
-            className="claim-anchor">{""} order now
+            className="claim-anchor">{""} get started
             <img 
             src={arrow}
             alt="Claim"
